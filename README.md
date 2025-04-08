@@ -38,6 +38,8 @@ POST /api/v1/user/login
   "password": "123456"
 }
 
+I used Postman to test all the api requests
+
 📚 Book Routes (/api/books)
 Method	Endpoint	Description
 POST	/	Create a new book
