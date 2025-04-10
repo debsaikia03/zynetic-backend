@@ -1,3 +1,5 @@
+import Book from "../models/book.model.js";
+
 export const createBook = async (req, res) => {
     try {
         const { title, author, category, price, rating, publishedDate } = req.body;
